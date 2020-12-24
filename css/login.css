@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main{
+    display: grid;
+    /* grid-template-rows: 80vh; */
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.login,.search{
+    padding: 20px;
+    /* margin: 0 auto; */
+}
+
+
+/* form */
+input,select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+input[type=text],input[type=password],select{
+    background-color: #240090;
+    color: white;
+    border: none;
+    font-size: 100%;
+    letter-spacing: 0.2em;
+}
+
+input[type=submit]{
+    background-color: #282828;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+}
+
+
+input[type=submit]:hover{
+    background-color: white;
+    color:#290c63;
+    font-weight: 500;
+    
+}
+
+fieldset{
+    font-size: 20px;
+    /* border-radius: 10px;
+    border-width: 5px;
+    border-style: solid; */
+    /* width: 33%; */
+    border: none;
+}
